@@ -17,6 +17,7 @@
 		21339467299D0FC9007FAD0A /* CustomTextToSepeechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21339466299D0FC9007FAD0A /* CustomTextToSepeechTests.swift */; };
 		21339471299D0FC9007FAD0A /* CustomTextToSepeechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21339470299D0FC9007FAD0A /* CustomTextToSepeechUITests.swift */; };
 		21339473299D0FC9007FAD0A /* CustomTextToSepeechUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21339472299D0FC9007FAD0A /* CustomTextToSepeechUITestsLaunchTests.swift */; };
+		21339480299D0FE2007FAD0A /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2133947F299D0FE2007FAD0A /* SpeechService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2133946C299D0FC9007FAD0A /* CustomTextToSepeechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTextToSepeechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21339470299D0FC9007FAD0A /* CustomTextToSepeechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextToSepeechUITests.swift; sourceTree = "<group>"; };
 		21339472299D0FC9007FAD0A /* CustomTextToSepeechUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextToSepeechUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2133947F299D0FE2007FAD0A /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +103,11 @@
 		2133944B299D0FC7007FAD0A /* CustomTextToSepeech */ = {
 			isa = PBXGroup;
 			children = (
-				2133944C299D0FC7007FAD0A /* AppDelegate.swift */,
-				2133944E299D0FC7007FAD0A /* SceneDelegate.swift */,
-				21339450299D0FC7007FAD0A /* ViewController.swift */,
-				21339452299D0FC7007FAD0A /* Main.storyboard */,
+				21339484299D100B007FAD0A /* System */,
+				21339483299D1002007FAD0A /* Model */,
+				21339482299D0FF8007FAD0A /* View */,
+				21339481299D0FE9007FAD0A /* Controller */,
 				21339458299D0FC9007FAD0A /* Assets.xcassets */,
-				2133945A299D0FC9007FAD0A /* LaunchScreen.storyboard */,
 				2133945D299D0FC9007FAD0A /* Info.plist */,
 				21339455299D0FC7007FAD0A /* CustomTextToSepeech.xcdatamodeld */,
 			);
@@ -128,6 +129,40 @@
 				21339472299D0FC9007FAD0A /* CustomTextToSepeechUITestsLaunchTests.swift */,
 			);
 			path = CustomTextToSepeechUITests;
+			sourceTree = "<group>";
+		};
+		21339481299D0FE9007FAD0A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				21339450299D0FC7007FAD0A /* ViewController.swift */,
+				21339452299D0FC7007FAD0A /* Main.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		21339482299D0FF8007FAD0A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2133945A299D0FC9007FAD0A /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		21339483299D1002007FAD0A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2133947F299D0FE2007FAD0A /* SpeechService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		21339484299D100B007FAD0A /* System */ = {
+			isa = PBXGroup;
+			children = (
+				2133944C299D0FC7007FAD0A /* AppDelegate.swift */,
+				2133944E299D0FC7007FAD0A /* SceneDelegate.swift */,
+			);
+			path = System;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +298,7 @@
 			files = (
 				21339457299D0FC7007FAD0A /* CustomTextToSepeech.xcdatamodeld in Sources */,
 				21339451299D0FC7007FAD0A /* ViewController.swift in Sources */,
+				21339480299D0FE2007FAD0A /* SpeechService.swift in Sources */,
 				2133944D299D0FC7007FAD0A /* AppDelegate.swift in Sources */,
 				2133944F299D0FC7007FAD0A /* SceneDelegate.swift in Sources */,
 			);
