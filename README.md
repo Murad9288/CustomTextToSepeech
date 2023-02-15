@@ -7,11 +7,11 @@
 ![](https://img.shields.io/badge/Supported-iOS16.1%20%7C%20OSX%2016.1-4BC51D.svg?style=flat)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![](https://img.shields.io/badge/Swift-5.7.1-orange.svg?style=flat)
 
-<br/>
+
 
   <h2> CustomTextToSepeech Example Picture -></h2>
 
-|1|2|3|
-|---|---|---|
-|<img src="./Image sample/1.png" width='200px'>&nbsp;&nbsp;| &nbsp;&nbsp;<img src="./Image sample/2.png" width='200px'>&nbsp;&nbsp; | &nbsp;&nbsp;<img src="./Image sample/3.png" width='200px'>|
+|1|2|3|4|
+|---|---|---|---|
+|<img src="./Image sample/1.png" width='200px'>|<img src="./Image sample/2.png" width='200px'>|<img src="./Image sample/3.png" width='200px'>|<img src="./Image sample/4.png" width='200px'>|
 </div>
