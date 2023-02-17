@@ -36,7 +36,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="jzH-fV-SGl">
-                                        <rect key="frame" x="23.333333333333343" y="440.66666666666669" width="346.33333333333326" height="68.333333333333314"/>
+                                        <rect key="frame" x="23.333333333333343" y="400.66666666666669" width="346.33333333333326" height="68.333333333333314"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vwW-SE-9fM">
                                                 <rect key="frame" x="0.0" y="0.0" width="143.33333333333334" height="68.333333333333329"/>
@@ -75,7 +75,7 @@
                                     <constraint firstAttribute="trailing" secondItem="S3m-3V-AZP" secondAttribute="trailing" id="gUp-od-sKY"/>
                                     <constraint firstItem="S3m-3V-AZP" firstAttribute="leading" secondItem="9nx-MC-uVZ" secondAttribute="leading" id="gel-ZL-4NN"/>
                                     <constraint firstItem="jzH-fV-SGl" firstAttribute="width" secondItem="M2o-a1-EVn" secondAttribute="width" multiplier="0.98" id="iRS-Vx-hDv"/>
-                                    <constraint firstItem="jzH-fV-SGl" firstAttribute="top" secondItem="M2o-a1-EVn" secondAttribute="bottom" constant="80" id="scg-V0-8RK"/>
+                                    <constraint firstItem="jzH-fV-SGl" firstAttribute="top" secondItem="M2o-a1-EVn" secondAttribute="bottom" constant="40" id="scg-V0-8RK"/>
                                 </constraints>
                             </view>
                         </subviews>
